@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 用于通用子框架的配置参数设置 -->
+<!-- 如有疑问，请咨询 Wang You-zhou -->
+
+<x_framework_configs>
+  <data_center>
+    <!-- 文件后缀必须为4个字符,且必须为小写形式（项目文件名后缀不限定大小写，但程序框架配置必须指定为小写），不足时系统以空格补足，多余时将截去 -->
+    <project_file_suffix>rbpx</project_file_suffix>
+    
+    <!-- 文件打开或关闭时的格式串 -->
+    <project_file_filter>Road Bed 项目文件(*.rbpx)|*.rbpx||</project_file_filter>
+  </data_center>
+</x_framework_configs>

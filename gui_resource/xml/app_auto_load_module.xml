@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- app_auto_load_module.xml仅添加需要在启动时用到的模块即可，其它功能性的模块程序会在用到时自动加载，不要添加到列表中 -->
+<!-- 到目前为止，只有唯一的一个原因是需要模块在启动时向框架注册相关的派生类，其它情况请严肃对待，务必确保不加载必要模块 -->
+<!-- 如有疑问，请咨询 Wang You-zhou -->
+
+<app_auto_load_module>
+  <debug>
+    <module path_name="road_bed_project_manager_d.dll"/>
+    <module path_name="road_bed_ui_manager_d.dll"/>
+  </debug>
+  <release>
+    <module path_name="road_bed_project_manager.dll"/>
+    <module path_name="road_bed_ui_manager.dll"/>
+  </release>
+</app_auto_load_module>

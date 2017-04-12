@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<app_configs>
+  <splash_settings enable_splash="true"/>
+  <skin_settings enable_skin="true"/>
+  <application_settings application_name="Road Bed"/>
+</app_configs>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<app_graph_register_info_type>
+  <graph_register_info_item type_name="demo graph" data_class_name="demo_graph_data" common_grid_class_name="demo_common_grid_ui_data" advance_grid_class_name="demo_advance_grid_ui_data" graphic_editor_class_name="demo_graphic_ui_data" drawing_strategy_class_name="demo_graph_drawing_strategy_base"/>
+</app_graph_register_info_type>
